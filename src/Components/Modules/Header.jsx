@@ -5,23 +5,28 @@ import MessengerVector from "../../Assets/Icons/messenger-vector.png";
 import profileVector from "../../Assets/Icons/profile-vector.png";
 import projectVector from "../../Assets/Icons/project-vector.png";
 import walletVector from "../../Assets/Icons/wallet-vector.png";
-import './Header.module.css'
+import "./Header.module.css";
 export const Header = () => {
   return (
-    <header style={{backgroundColor:'#DEEBEC'}} className="container mb-1">
+    <header style={{ backgroundColor: "#DEEBEC" }} className=" mb-1 w-2xl">
       <nav
-        className="mx-auto flex w-[1920px] h-12 items-center p-6 lg:px-8"
+        className="mx-auto flex w-auto h-12 items-center p-6 lg:px-8"
         aria-label="Global"
       >
-        <div  className="flex mr-auto">
+        <div className="flex mr-auto">
           <a href="/" className="">
             <img className="logo" src={logo} alt="logo" />
           </a>
         </div>
         <div className="flex justify-between align-middle mr-auto">
           <a href="/" className="mr-20 ">
-            <div >
-              <img className="logo" src={MessengerVector} alt="logo" />
+            <div className="flex-col justify-center align-middle m-auto">
+              <img
+                style={{ height: "15px", width: "16px" }}
+                className="m-auto"
+                src={MessengerVector}
+                alt="logo"
+              />
               <span className="text-emerald-800 text-[8px] font-semibold font-['Saira']">
                 ME
               </span>
@@ -34,7 +39,12 @@ export const Header = () => {
             </div>
           </a>
           <a href="/" className="mr-20 ">
-            <img className="logo" src={exploreVector} alt="logo" />
+            <img
+              style={{ height: "15px", width: "16px" }}
+              className="m-auto"
+              src={exploreVector}
+              alt="logo"
+            />
 
             <div>
               <span className="text-emerald-800 text-[8px] font-semibold font-['Saira']">
@@ -48,8 +58,13 @@ export const Header = () => {
               </span>
             </div>
           </a>
-          <a href="/"  className="mr-20 ">
-            <img className="logo" src={projectVector} alt="logo" />
+          <a href="/" className="mr-20 ">
+            <img
+              style={{ height: "15px", width: "16px" }}
+              className="m-auto"
+              src={projectVector}
+              alt="logo"
+            />
 
             <div>
               <span className="text-yellow-600 text-[8px] font-semibold font-['Saira']">
@@ -64,7 +79,12 @@ export const Header = () => {
             </div>
           </a>
           <a href="/" className="mr-20 ">
-            <img className="logo" src={profileVector} alt="logo" />
+            <img
+              style={{ height: "15px", width: "16px" }}
+              className="m-auto"
+              src={profileVector}
+              alt="logo"
+            />
 
             <div>
               <span className="text-emerald-800 text-[8px] font-semibold font-['Saira']">
@@ -79,7 +99,12 @@ export const Header = () => {
             </div>
           </a>
           <a href="/" className="mr-20 ">
-            <img className="logo" src={walletVector} alt="logo" />
+            <img
+              style={{ height: "15px", width: "16px" }}
+              className="m-auto"
+              src={walletVector}
+              alt="logo"
+            />
 
             <div>
               <span className="text-yellow-600 text-[8px] font-semibold font-['Saira']">

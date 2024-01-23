@@ -46,7 +46,7 @@ export const ProductCard = () => {
           <div>
             <div className="flex flex-row mt-1">
               <img
-                style={{ height: "20px", width: "20px" }}
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
                 src={swissFlagVector}
                 alt="logo"
               />
@@ -81,7 +81,7 @@ export const ProductCard = () => {
           <div className="mt-1">
             <div className="flex flex-row">
               <img
-                style={{ height: "20px", width: "20px" }}
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
                 src={swissFlagVector}
                 alt="logo"
               />
@@ -96,37 +96,44 @@ export const ProductCard = () => {
           {/* item 5 */}
           <div className="mt-1">
             <div className="w-[88px] text-yellow-600 text-sm font-semibold font-['Saira']">
-              $ 12.00 Hour
+              Male
             </div>
             <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
-              MINIMUM SALARY
+              Gender
             </div>
           </div>
           {/* item 6 */}
           <div className="mt-1">
             <div className="w-[118px] text-yellow-600 text-sm font-semibold font-['Saira']">
-              8:00 AM GMT +2{" "}
+              24 Months
             </div>
             <div className="w-[111px] text-emerald-800 text-xs font-semibold font-['Saira']">
-              STARTING HOURS{" "}
+              MIN EXPERIENCE
             </div>
           </div>
           {/* item 7 */}
           <div className="mt-1">
-            <div className="w-[58px] text-yellow-600 text-sm font-semibold font-['Saira']">
-              In Person
+            <div className="flex flex-row">
+              <img
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
+                src={swissFlagVector}
+                alt="logo"
+              />
+              <div className="w-20 text-yellow-600 text-sm font-semibold font-['Saira']">
+                Montenegro
+              </div>
             </div>
-            <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
-              CONTRACT TYPE
+            <div className="w-[118] text-emerald-800 text-xs font-semibold font-['Saira']">
+              NATIVE LANGUAGE
             </div>
           </div>
           {/* item 8 */}
           <div className="mt-1">
             <div className="w-[118px] text-yellow-600 text-sm font-semibold font-['Saira']">
-              $ 24.00 Hour{" "}
+              $ 12.00 Hour{" "}
             </div>
             <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
-              MAXIMUM SALARY{" "}
+              MINIMUM SALARY{" "}
             </div>
           </div>
           {/* item 9 */}
@@ -138,11 +145,39 @@ export const ProductCard = () => {
               ENDING HOURS
             </div>
           </div>
+
           {/* item 10 */}
+          <div className="mt-1">
+            <div className="w-[58px] text-yellow-600 text-sm font-semibold font-['Saira']">
+              In Person
+            </div>
+            <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
+              CONTRACT TYPE
+            </div>
+          </div>
+          {/* item 11 */}
+          <div className="mt-1">
+            <div className="w-[118px] text-yellow-600 text-sm font-semibold font-['Saira']">
+              $ 24.00 Hour{" "}
+            </div>
+            <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
+              MAXIMUM SALARY{" "}
+            </div>
+          </div>
+          {/* item  12*/}
+          <div className="mt-1">
+            <div className="w-[118px] text-yellow-600 text-sm font-semibold font-['Saira']">
+              17:00 PM GMT +2
+            </div>
+            <div className="w-[118px] text-emerald-800 text-xs font-semibold font-['Saira']">
+              ENDING HOURS
+            </div>
+          </div>
+          {/* item 13 */}
           <div className="mt-1">
             <div className="flex flex-row">
               <img
-                style={{ height: "20px", width: "20px" }}
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
                 src={swissFlagVector}
                 alt="logo"
               />
@@ -154,11 +189,11 @@ export const ProductCard = () => {
               CITY
             </div>
           </div>
-          {/* item 11 */}
+          {/* item 14 */}
           <div className="mt-1">
             <div className="flex flex-row">
               <img
-                style={{ height: "20px", width: "20px" }}
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
                 src={swissFlagVector}
                 alt="logo"
               />
@@ -167,11 +202,12 @@ export const ProductCard = () => {
               </div>
             </div>
           </div>
-          {/* item 12 */}
+          {/* item 15 */}
+
           <div className="mt-1">
             <div className="flex flex-row">
               <img
-                style={{ height: "20px", width: "20px" }}
+                style={{ height: "20px", width: "20px", marginRight: "5px" }}
                 src={swissFlagVector}
                 alt="logo"
               />
@@ -181,9 +217,9 @@ export const ProductCard = () => {
             </div>
           </div>
         </section>
-        <hr class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-        <div className="text-yellow-600 text-sm font-semibold font-['Saira']   justify-center align-middle text-center mt-10">
-          KNOW MORE
+        <hr class="my-0 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
+        <div className="text-yellow-600 text-sm font-semibold font-['Saira'] justify-center align-middle m-auto h-full">
+          <div className=" text-center mt-5">KNOW MORE</div>
         </div>
       </div>
     </>
