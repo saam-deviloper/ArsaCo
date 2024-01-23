@@ -8,8 +8,9 @@ import walletVector from "../../Assets/Icons/wallet-vector.png";
 import "./Header.module.css";
 export const Header = () => {
   return (
-    <header style={{ backgroundColor: "#DEEBEC" }} className=" mb-1 w-2xl">
+    <header  className=" mb-1 w-2xl">
       <nav
+      style={{ backgroundColor: "#DEEBEC" }}
         className="mx-auto flex w-auto h-12 items-center p-6 lg:px-8"
         aria-label="Global"
       >
