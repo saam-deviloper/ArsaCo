@@ -29,8 +29,8 @@ export const ProductCard = () => {
               />
             </div>
             <div className="flex justify-start items-center">
-              <div className="w-[383px] h-[3px] bg-white rounded-tl-sm rounded-tr-sm relative z-0" />
-              <div className="w-[273px] h-[3px] bg-gradient-to-r from-slate-300 to-emerald-800 rounded-tl-sm rounded-tr-sm absolute z-10" />
+              <div className="w-[380px] h-[3px] bg-white rounded-tl-sm rounded-tr-sm relative z-0" />
+              <div className="w-[263px] h-[3px] bg-gradient-to-r from-slate-300 to-emerald-800 rounded-tl-sm rounded-tr-sm absolute z-10" />
             </div>
             <div className="w-[352px] text-emerald-800 text-[10px] font-semibold font-['Saira'] mt-1">
               PROFESSIONAL DESIGNER FOR MODELING AND RENDERING WALOR
